@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        section {
+            display: grid;
+        }
+        section.s1 {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        section.s2 {
+            grid-template-columns: 1fr 1fr;
+        }
+        section.s3 {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+        section.s4 {
+            grid-template-columns: 1fr 1fr;
+        }
+        div {
+            border: 1px solid #000;
+            height: calc(100vh / 6);
+            /* width: calc(100% / 2); */
+            /* float: left; */
+        }
+        footer {
+            /* clear: both; */
+        }
+    </style>
+</head>
+<body>
+    <section class = "s1">
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+    <section class = "s2">
+        <div></div>
+        <div></div>
+    </section>
+    <section class = "s3">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+    <section class = "s4">
+        <div></div>
+        <div></div>
+    </section>
+    <footer> 하하하하하하 </footer>
+</body>
+</html>
